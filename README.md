@@ -1,0 +1,1 @@
+This project is a team management project it also implements feature of SAAS(software as a service) adding a subscription model, multiple clients, etc. The readme will be updated as the project is moved forward.
