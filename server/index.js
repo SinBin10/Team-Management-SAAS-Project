@@ -1,9 +1,8 @@
 const express = require("express");
 const app = express();
+const router = require("./routers/auth-router");
 
-app.get("/", (req, res) => {
-  res.send("working good...");
-});
+app.use("/", router);
 
 app.listen(3000, () => {
   console.log("hello");
