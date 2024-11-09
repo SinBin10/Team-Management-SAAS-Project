@@ -1,6 +1,6 @@
 const login = () => {};
-const register = () => {
-  console.log("user registered");
+const register = (req, res) => {
+  res.send("making a new account");
 };
 
 module.exports = { login, register };
