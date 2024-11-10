@@ -4,6 +4,8 @@ const app = express();
 const router = require("./routers/auth-router");
 const connectDB = require("./utils/db");
 
+app.use(express.json());
+
 app.use("/", router);
 
 const PORT = process.env.PORT;
