@@ -6,7 +6,7 @@ const connectDB = require("./utils/db");
 
 app.use(express.json());
 
-app.use("/", router);
+app.use("/api/auth", router);
 
 const PORT = process.env.PORT;
 connectDB().then(() => {
